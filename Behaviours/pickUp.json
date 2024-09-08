@@ -61,13 +61,6 @@
 			"x": 650,
 			"y": -37
 		},
-		"ROQZKSU848Ttr5XcFIp0kU9RX7vB396x": {
-			"height": 92,
-			"title": "store",
-			"width": 392,
-			"x": 628,
-			"y": -115
-		},
 		"SEifWZjQOxWcJrdhi2wcziQSPV2bF1DI": {
 			"height": 90,
 			"title": "luaCondition",
@@ -148,21 +141,6 @@
 			}, {
 				"name": "value",
 				"value": "giveMeAtlas(atlases)"
-			}, {
-				"name": "scriptName",
-				"value": "store"
-			} ],
-			"scriptName": "store"
-		}, {
-			"children": [],
-			"id": "ROQZKSU848Ttr5XcFIp0kU9RX7vB396x",
-			"nodeType": "luaCommand",
-			"parameters": [ {
-				"name": "var",
-				"value": "bannedAreas"
-			}, {
-				"name": "value",
-				"value": "{{minX = 0, minZ=0, maxX = 256, maxZ = 2560}}"
 			}, {
 				"name": "scriptName",
 				"value": "store"
