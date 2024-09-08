@@ -1,0 +1,293 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 148,
+			"width": 228
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "atlases"
+	} ],
+	"outputs": [],
+	"properties": {
+		"1VQLFfyof5gowK1cPJoyejf7oqPBxvMt": {
+			"height": 54,
+			"title": "failure",
+			"width": 131,
+			"x": 980,
+			"y": 133
+		},
+		"1Z4rAvBjTB91mh8fLn8qpEDta2kcl0dP": {
+			"height": 92,
+			"title": "nota_kahlan_ttdr.unloadUnit",
+			"width": 260,
+			"x": 703,
+			"y": 512
+		},
+		"3fq5qidHwJ1VUq9JqczlPXjRt15KKDiU": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 989,
+			"y": 279
+		},
+		"797wAK5ibYYgzc2TbkFkYyx3kLfkekkO": {
+			"height": 54,
+			"title": "failure",
+			"width": 131,
+			"x": 986,
+			"y": 344
+		},
+		"MOTJyRAUwjsHSoPnmCEoqKqZknYJXX56": {
+			"height": 94,
+			"title": "store",
+			"width": 198,
+			"x": 638,
+			"y": -323
+		},
+		"N18r3MCjAjdqS41BNlgDYqBZ3SX28jJY": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 339,
+			"y": 28
+		},
+		"Nkm7DgFSwlpSju92Gy0z4QLz8NjZNYCG": {
+			"height": 92,
+			"title": "store",
+			"width": 392,
+			"x": 650,
+			"y": -37
+		},
+		"ROQZKSU848Ttr5XcFIp0kU9RX7vB396x": {
+			"height": 92,
+			"title": "store",
+			"width": 392,
+			"x": 628,
+			"y": -115
+		},
+		"SEifWZjQOxWcJrdhi2wcziQSPV2bF1DI": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 194,
+			"x": 696,
+			"y": 81
+		},
+		"W2JMvLcbQNg8BVlMmoRz7Y272xv4zXiO": {
+			"height": 111,
+			"title": "store",
+			"width": 185,
+			"x": 731,
+			"y": 626
+		},
+		"WXLw5j3nD0EpOvlNGs6MOvuCQa7bB1yG": {
+			"height": 94,
+			"title": "store",
+			"width": 216,
+			"x": 624,
+			"y": -229
+		},
+		"YLlz8E3TYdyeQHTQngNcwzaqhgReN90R": {
+			"height": 92,
+			"title": "nota_kahlan_ttdr.loadUnit",
+			"width": 244,
+			"x": 712,
+			"y": 414
+		},
+		"agoefb9zaJEE8mDuXE0XKHJPOYBUDh3m": {
+			"height": 94,
+			"title": "store",
+			"width": 452,
+			"x": 693,
+			"y": 192
+		},
+		"cD43RvXppl23vSuads8SzkpXU2O5MBOI": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 194,
+			"x": 702,
+			"y": 292
+		},
+		"fUc47ylWT0vUqZxZnHwn7wepBymBALqs": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 983,
+			"y": 68
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "MOTJyRAUwjsHSoPnmCEoqKqZknYJXX56",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "missionInfo"
+			}, {
+				"name": "value",
+				"value": "core.MissionInfo()"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "WXLw5j3nD0EpOvlNGs6MOvuCQa7bB1yG",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "atlasID"
+			}, {
+				"name": "value",
+				"value": "giveMeAtlas(atlases)"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "ROQZKSU848Ttr5XcFIp0kU9RX7vB396x",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "bannedAreas"
+			}, {
+				"name": "value",
+				"value": "{{minX = 0, minZ=0, maxX = 256, maxZ = 2560}}"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "Nkm7DgFSwlpSju92Gy0z4QLz8NjZNYCG",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "bannedAreas"
+			}, {
+				"name": "value",
+				"value": "{}"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "fUc47ylWT0vUqZxZnHwn7wepBymBALqs",
+				"nodeType": "success",
+				"parameters": []
+			}, {
+				"children": [],
+				"id": "1VQLFfyof5gowK1cPJoyejf7oqPBxvMt",
+				"nodeType": "failure",
+				"parameters": []
+			} ],
+			"id": "SEifWZjQOxWcJrdhi2wcziQSPV2bF1DI",
+			"nodeType": "luaCondition",
+			"parameters": [ {
+				"name": "expression",
+				"value": "atlasID ~= nil"
+			}, {
+				"name": "repeat",
+				"value": "false"
+			} ]
+		}, {
+			"children": [],
+			"id": "agoefb9zaJEE8mDuXE0XKHJPOYBUDh3m",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "unitID"
+			}, {
+				"name": "value",
+				"value": "giveMeTarget(atlasID,missionInfo.safeArea,bannedAreas)"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "3fq5qidHwJ1VUq9JqczlPXjRt15KKDiU",
+				"nodeType": "success",
+				"parameters": []
+			}, {
+				"children": [],
+				"id": "797wAK5ibYYgzc2TbkFkYyx3kLfkekkO",
+				"nodeType": "failure",
+				"parameters": []
+			} ],
+			"id": "cD43RvXppl23vSuads8SzkpXU2O5MBOI",
+			"nodeType": "luaCondition",
+			"parameters": [ {
+				"name": "expression",
+				"value": "unitID ~= nil"
+			}, {
+				"name": "repeat",
+				"value": "false"
+			} ]
+		}, {
+			"children": [],
+			"id": "YLlz8E3TYdyeQHTQngNcwzaqhgReN90R",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "transporter",
+				"value": "atlasID"
+			}, {
+				"name": "unit",
+				"value": "unitID"
+			}, {
+				"name": "scriptName",
+				"value": "nota_kahlan_ttdr.loadUnit"
+			} ],
+			"scriptName": "nota_kahlan_ttdr.loadUnit"
+		}, {
+			"children": [],
+			"id": "1Z4rAvBjTB91mh8fLn8qpEDta2kcl0dP",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "transporter",
+				"value": "atlasID"
+			}, {
+				"name": "unit",
+				"value": "unitID"
+			}, {
+				"name": "scriptName",
+				"value": "nota_kahlan_ttdr.unloadUnit"
+			} ],
+			"scriptName": "nota_kahlan_ttdr.unloadUnit"
+		}, {
+			"children": [],
+			"id": "W2JMvLcbQNg8BVlMmoRz7Y272xv4zXiO",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "bb.resSys[atlasID]"
+			}, {
+				"name": "value",
+				"value": "nil"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		} ],
+		"id": "N18r3MCjAjdqS41BNlgDYqBZ3SX28jJY",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}
